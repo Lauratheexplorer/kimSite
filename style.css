@@ -99,6 +99,13 @@ footer {
     .image2 {
         margin-top: 5px;
     }
+    #title {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #experience {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 910px) {
